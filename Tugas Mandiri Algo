@@ -25,7 +25,7 @@ public class EventOrganiser {
 
     public void setCUSTID(String CUSTID) {this.CUSTID = CUSTID;}
 
-    public void PrintTamu(){
+    public void PrintGuest(){
         System.out.println(this.getCUSTID());
         System.out.println(this.getCUSTNAME());
         System.out.println(this.getCUSTDDR());
