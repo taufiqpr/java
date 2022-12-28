@@ -1,0 +1,72 @@
+public class GuestRecord {
+    public static void main(String[] args) {
+
+        EventOrganiser tamu1 = new EventOrganiser();
+        tamu1.setCUSTID("001");
+        tamu1.setCUSTNAME("abi");
+        tamu1.setCUSTDDR("brebes");
+        tamu1.setCUSTEMAIL("abi@gmail.com");
+        tamu1.setCUSTPHONE("08912839182");
+        tamu1.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu2 = new EventOrganiser();
+        tamu2.setCUSTID("002");
+        tamu2.setCUSTNAME("budi");
+        tamu2.setCUSTDDR("tegal");
+        tamu2.setCUSTEMAIL("budi@gmail.com");
+        tamu2.setCUSTPHONE("08912339172");
+        tamu2.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu3 = new EventOrganiser();
+        tamu3.setCUSTID("003");
+        tamu3.setCUSTNAME("puad");
+        tamu3.setCUSTDDR("jatibarang");
+        tamu3.setCUSTEMAIL("puadgeming@gmail.com");
+        tamu3.setCUSTPHONE("08912139172");
+        tamu3.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu4 = new EventOrganiser();
+        tamu4.setCUSTID("004");
+        tamu4.setCUSTNAME("eko");
+        tamu4.setCUSTDDR("tulis");
+        tamu4.setCUSTEMAIL("eko@gmail.com");
+        tamu4.setCUSTPHONE("08912839172");
+        tamu4.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu5 = new EventOrganiser();
+        tamu5.setCUSTID("005");
+        tamu5.setCUSTNAME("abi");
+        tamu5.setCUSTDDR("slawi");
+        tamu5.setCUSTEMAIL("abi@gmail.com");
+        tamu5.setCUSTPHONE("08912839172");
+        tamu5.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu6 = new EventOrganiser("006","riko","saditan","abiriko@gmail.com","08323843172");
+        tamu6.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu7 = new EventOrganiser("007","ati","pulosari","ati@gmail.com","08932839172");
+        tamu7.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu8 = new EventOrganiser("008","eja","balapulang","ejaa@gmail.com","08138239742");
+        tamu8.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu9 = new EventOrganiser("009","eraa","batang","eraa@gmail.com","08912846172");
+        tamu9.PrintGuest();
+        System.out.println("\n");
+
+        EventOrganiser tamu10= new EventOrganiser("010","andri","pasarbatang","andri@gmail.com","08912839172");
+        tamu10.PrintGuest();
+
+
+
+
+    }
+}
