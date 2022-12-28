@@ -1,0 +1,49 @@
+public class EventOrganiser {
+    private String CUSTID;
+    private String CUSTNAME;
+    private String CUSTDDR;
+    private String CUSTEMAIL;
+    private String CUSTPHONE;
+
+    public String getCUSTPHONE() {return CUSTPHONE;}
+
+    public void setCUSTPHONE(String CUSTPHONE) {this.CUSTPHONE = CUSTPHONE;}
+
+    public String getCUSTEMAIL() {return CUSTEMAIL;}
+
+    public void setCUSTEMAIL(String CUSTEMAIL) {this.CUSTEMAIL = CUSTEMAIL;}
+
+    public String getCUSTDDR() {return CUSTDDR;}
+
+    public void setCUSTDDR(String CUSTDDR) {this.CUSTDDR = CUSTDDR;}
+
+    public String getCUSTNAME() {return CUSTNAME;}
+
+    public void setCUSTNAME(String CUSTNAME) {this.CUSTNAME = CUSTNAME;}
+
+    public String getCUSTID() {return CUSTID;}
+
+    public void setCUSTID(String CUSTID) {this.CUSTID = CUSTID;}
+
+    public void PrintTamu(){
+        System.out.println(this.getCUSTID());
+        System.out.println(this.getCUSTNAME());
+        System.out.println(this.getCUSTDDR());
+        System.out.println(this.getCUSTEMAIL());
+        System.out.println(this.getCUSTPHONE());
+    }
+
+
+
+    public  EventOrganiser(){//constructor
+
+    }
+
+    public EventOrganiser(String custid, String custname, String custddr, String custemail, String custphone){
+    this.CUSTID = custid;
+    this.CUSTNAME = custname;
+    this.CUSTDDR = custddr;
+    this. CUSTEMAIL = custemail;
+    this. CUSTPHONE = custphone;
+    }
+}
